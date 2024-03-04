@@ -1,0 +1,314 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    letter-spacing: 0.05em;
+    line-height: 1.33em;
+}
+h1 {
+    font-size: 65px;
+    margin-top: -11px;
+}
+h2 {
+    font-size: 55px;
+}
+section {
+    padding-top: 150px;
+}
+.container {
+    max-width: 1600px;
+    margin-left: 160px;
+}
+.section-number {
+    font-weight: 500;
+    font-size: 45px;
+    font-style: italic;
+    line-height: 1.33em;
+    letter-spacing: 0.05em;
+    color: #B1B1B1;
+}
+.header .container { 
+    max-width: 1760px;
+    display: flex;
+    gap: 85px;
+}
+.hero-page-text {
+    width: 925px;
+    padding-top: 77px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+.logo {
+    width: 135px;
+}
+.navigation {
+    display: flex;
+    gap: 79px;
+    width: 550px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.318em;
+}
+.floating-plant p {
+    width: 706px;
+}
+.floating-plant {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    border: 1px solid #000000;
+    padding: 89px 135px 91px 84px;
+    margin-top: 90px;
+}
+.choose-a-pot {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #000000;
+    border-top: 0px;
+    padding: 20px 49px;
+    width: 270px;
+}
+.arrow-right {
+    width: 26.5px;
+}
+.jane-cooper {
+    display: flex;
+    gap: 35px;
+    justify-content: right;
+    margin-top: 56px;
+}
+.jane-cooper-text {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.jane-cooper .content {
+    font-size: 14px;
+    width: 209px;
+    font-style: italic;
+    font-weight: 500;
+}
+.arrow-down {
+    width: 37px;
+    margin-top: 103px;
+}
+.hero-page-image {
+    background: #ECECEC;
+    padding-left: 70px;
+    padding-top: 93px;
+    padding-right: 160px;
+}
+.find-buy {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    align-items: center;
+}
+.find {
+    width: 18.75px;
+}
+.buy {
+    width: 24px;
+}
+.poligonal-plot {
+    width: 520px;
+    margin-top: 96px;
+}
+.price-plus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+.price-name {
+    font-size: 22px;
+    line-height: 1.318em;
+    text-transform: uppercase;
+}
+.price-value {
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 1.35em;
+}
+.price-plus img {
+    width: 22px;
+}
+.content-two {
+    display: flex;
+    align-items: flex-start;
+    gap: 128px;
+    margin-top: 66px;
+}
+.levipot-two {
+    width: 470px;
+}
+.text-two {
+    width: 1002px;
+}
+.option {
+    border: 1px solid #000000;
+    border-bottom: 0;
+}
+.last-option {
+    border-bottom: 1px solid #000000;
+}
+.option-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option-header h3 {
+    font-size: 25px;
+    margin: 31px;
+    font-weight: 400;
+}
+.plus {
+    width: 22px;
+    margin: 36px;
+    transition: 0.5s;
+}
+.cross {
+    transform: rotate(-45deg);
+}
+.option-text {
+    width: 918px;
+    margin-left: 31px;
+    transition:height 0.5s ease-out;
+    height:0;
+    overflow:hidden;
+}
+.actions-two {
+    display: flex;
+    align-items: center;
+    margin-top: 58px;
+    justify-content: space-between;
+}
+.actions-two .choose-a-pot {
+    border: 1px solid #000000;
+}
+.download {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.pdf-image {
+    width: 16.5px;
+}
+.download-text {
+
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.3em;
+}
+.three {
+    padding-top: 130px;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 108px;
+}
+.object {
+    width: 360px;
+}
+.object .image {
+    width: 360px;
+}
+.object .price-plus {
+    margin-top: 18px;
+}
+.object .price-name {
+    font-size: 20px;
+    line-height: 1.35em;
+}
+.object .price-plus img {
+    width: 13.61px;
+}
+.object .price-value {
+    margin-top: 7px;
+    font-size: 18px;
+}
+.watch-more {
+    border: 1px solid #000000;
+    font-size: 22px;
+    line-height: 1.32em;
+    padding: 20px 72px;
+    width: 274px;
+    margin: 0 auto;
+}
+.contact {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.contacts {
+    width: 790px;
+}
+.phone-email {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.32em;
+    letter-spacing: 0.05em;
+    margin-top: 72px;
+}
+.phone {
+    width: 411px;
+    border: 1px solid #000000;
+    padding: 31px 0;
+}
+.email {
+    width: 378px;
+    border: 1px solid #000000;
+    border-left: 0px;
+    padding: 31px 0;
+}
+.map {
+    width: 790px;
+    margin-top: 46px;
+}
+.contacts-text {
+    width: 668px;
+}
+.contacts-main-text {
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 51px;
+    margin-top: 71px;
+}
+.team {
+    margin-bottom: 22px;
+}
+.footer {
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.87em;
+    letter-spacing: 0.05em;
+    padding-top: 223px;
+    padding-bottom: 57px;
+}
